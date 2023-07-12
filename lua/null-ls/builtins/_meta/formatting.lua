@@ -28,6 +28,9 @@ return {
   black = {
     filetypes = { "python" }
   },
+  blackd = {
+    filetypes = { "python" }
+  },
   blade_formatter = {
     filetypes = { "blade" }
   },
@@ -36,6 +39,9 @@ return {
   },
   brittany = {
     filetypes = { "haskell" }
+  },
+  bsfmt = {
+    filetypes = { "brs" }
   },
   buf = {
     filetypes = { "proto" }
@@ -50,7 +56,7 @@ return {
     filetypes = { "markdown", "org" }
   },
   clang_format = {
-    filetypes = { "c", "cpp", "cs", "java", "cuda" }
+    filetypes = { "c", "cpp", "cs", "java", "cuda", "proto" }
   },
   cljstyle = {
     filetypes = { "clojure" }
@@ -100,6 +106,9 @@ return {
   emacs_vhdl_mode = {
     filetypes = { "vhdl" }
   },
+  erb_format = {
+    filetypes = { "eruby" }
+  },
   erb_lint = {
     filetypes = { "eruby" }
   },
@@ -112,6 +121,9 @@ return {
   eslint_d = {
     filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" }
   },
+  fantomas = {
+    filetypes = { "fsharp" }
+  },
   fish_indent = {
     filetypes = { "fish" }
   },
@@ -120,6 +132,9 @@ return {
   },
   fnlfmt = {
     filetypes = { "fennel", "fnl" }
+  },
+  forge_fmt = {
+    filetypes = { "solidity" }
   },
   format_r = {
     filetypes = { "r", "rmd" }
@@ -135,6 +150,9 @@ return {
   },
   gersemi = {
     filetypes = { "cmake" }
+  },
+  gn_format = {
+    filetypes = { "gn" }
   },
   gofmt = {
     filetypes = { "go" }
@@ -154,6 +172,15 @@ return {
   google_java_format = {
     filetypes = { "java" }
   },
+  haxe_formatter = {
+    filetypes = { "haxe" }
+  },
+  hclfmt = {
+    filetypes = { "hcl" }
+  },
+  htmlbeautifier = {
+    filetypes = { "eruby" }
+  },
   isort = {
     filetypes = { "python" }
   },
@@ -165,6 +192,9 @@ return {
   },
   json_tool = {
     filetypes = { "json" }
+  },
+  jsonnetfmt = {
+    filetypes = { "jsonnet" }
   },
   just = {
     filetypes = { "just" }
@@ -262,8 +292,17 @@ return {
   purs_tidy = {
     filetypes = { "purescript" }
   },
+  pyflyby = {
+    filetypes = { "python" }
+  },
+  pyink = {
+    filetypes = { "python" }
+  },
   qmlformat = {
     filetypes = { "qml" }
+  },
+  racket_fixw = {
+    filetypes = { "racket" }
   },
   raco_fmt = {
     filetypes = { "racket" }
@@ -281,9 +320,12 @@ return {
     filetypes = { "rescript" }
   },
   rome = {
-    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
+    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact", "json" }
   },
   rubocop = {
+    filetypes = { "ruby" }
+  },
+  rubyfmt = {
     filetypes = { "ruby" }
   },
   ruff = {
@@ -310,11 +352,17 @@ return {
   shfmt = {
     filetypes = { "sh" }
   },
+  smlfmt = {
+    filetypes = { "sml" }
+  },
   sql_formatter = {
     filetypes = { "sql" }
   },
   sqlfluff = {
     filetypes = { "sql" }
+  },
+  sqlfmt = {
+    filetypes = { "sql", "jinja" }
   },
   sqlformat = {
     filetypes = { "sql" }
@@ -343,6 +391,9 @@ return {
   surface = {
     filetypes = { "elixir", "surface" }
   },
+  swift_format = {
+    filetypes = { "swift" }
+  },
   swiftformat = {
     filetypes = { "swift" }
   },
@@ -356,13 +407,19 @@ return {
     filetypes = { "markdown" }
   },
   terraform_fmt = {
-    filetypes = { "terraform", "tf" }
+    filetypes = { "terraform", "tf", "terraform-vars" }
   },
   textlint = {
-    filetypes = {}
+    filetypes = { "txt", "markdown" }
   },
   tidy = {
     filetypes = { "html", "xml" }
+  },
+  topiary = {
+    filetypes = { "ncl", "nickel" }
+  },
+  treefmt = {
+    filetypes = {}
   },
   trim_newlines = {
     filetypes = {}
@@ -385,11 +442,20 @@ return {
   xmllint = {
     filetypes = { "xml" }
   },
+  xq = {
+    filetypes = { "xml" }
+  },
+  yamlfix = {
+    filetypes = { "yaml" }
+  },
   yamlfmt = {
     filetypes = { "yaml" }
   },
   yapf = {
     filetypes = { "python" }
+  },
+  yq = {
+    filetypes = { "yml", "yaml" }
   },
   zigfmt = {
     filetypes = { "zig" }

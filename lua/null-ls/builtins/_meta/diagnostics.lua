@@ -10,6 +10,9 @@ return {
   ansiblelint = {
     filetypes = { "yaml.ansible" }
   },
+  bslint = {
+    filetypes = { "brs" }
+  },
   buf = {
     filetypes = { "proto" }
   },
@@ -30,6 +33,9 @@ return {
   },
   clang_check = {
     filetypes = { "c", "cpp" }
+  },
+  clazy = {
+    filetypes = { "cpp" }
   },
   clj_kondo = {
     filetypes = { "clojure" }
@@ -63,6 +69,9 @@ return {
   },
   deadnix = {
     filetypes = { "nix" }
+  },
+  deno_lint = {
+    filetypes = { "javascript", "typescript", "typescriptreact", "javascriptreact" }
   },
   djlint = {
     filetypes = { "django", "jinja.html", "htmldjango" }
@@ -103,6 +112,9 @@ return {
   golangci_lint = {
     filetypes = { "go" }
   },
+  gospel = {
+    filetypes = { "go" }
+  },
   hadolint = {
     filetypes = { "dockerfile" }
   },
@@ -130,6 +142,9 @@ return {
   markdownlint_cli2 = {
     filetypes = { "markdown" }
   },
+  markuplint = {
+    filetypes = { "html" }
+  },
   mdl = {
     filetypes = { "markdown" }
   },
@@ -141,6 +156,9 @@ return {
   },
   mypy = {
     filetypes = { "python" }
+  },
+  npm_groovy_lint = {
+    filetypes = { "groovy", "java", "Jenkinsfile" }
   },
   opacheck = {
     filetypes = { "rego" }
@@ -199,6 +217,9 @@ return {
   qmllint = {
     filetypes = { "qml" }
   },
+  reek = {
+    filetypes = { "ruby" }
+  },
   revive = {
     filetypes = { "go" }
   },
@@ -213,6 +234,9 @@ return {
   },
   ruff = {
     filetypes = { "python" }
+  },
+  saltlint = {
+    filetypes = { "sls" }
   },
   selene = {
     filetypes = { "lua", "luau" }
@@ -259,11 +283,17 @@ return {
   teal = {
     filetypes = { "teal" }
   },
+  terraform_validate = {
+    filetypes = { "terraform", "tf", "terraform-vars" }
+  },
+  textidote = {
+    filetypes = { "markdown", "tex" }
+  },
   textlint = {
-    filetypes = {}
+    filetypes = { "txt", "markdown" }
   },
   tfsec = {
-    filetypes = { "terraform" }
+    filetypes = { "terraform", "tf", "terraform-vars" }
   },
   tidy = {
     filetypes = { "html", "xml" }
@@ -280,8 +310,17 @@ return {
   twigcs = {
     filetypes = { "twig" }
   },
+  typos = {
+    filetypes = {}
+  },
+  vacuum = {
+    filetypes = { "yaml", "json" }
+  },
   vale = {
     filetypes = { "markdown", "tex", "asciidoc" }
+  },
+  verilator = {
+    filetypes = { "verilog", "systemverilog" }
   },
   vint = {
     filetypes = { "vim" }

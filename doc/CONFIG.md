@@ -53,7 +53,7 @@ local defaults = {
     debounce = 250,
     debug = false,
     default_timeout = 5000,
-    diagnostic_config = nil,
+    diagnostic_config = {},
     diagnostics_format = "#{m}",
     fallback_severity = vim.diagnostic.severity.ERROR,
     log_level = "warn",
@@ -65,7 +65,6 @@ local defaults = {
     should_attach = nil,
     sources = nil,
     temp_dir = nil,
-    border = nil,
     update_in_insert = false,
 }
 ```
